@@ -1,0 +1,6 @@
+PopStateMarker
+{
+    width: 32px;
+    height: 32px;
+    background-image: resource("Assets/Scripts/Foundation/Timeline/PopState/PopStateMarker.png");
+}

@@ -3,6 +3,11 @@ namespace Zenject
     public interface IFactory
     {
     }
+    
+    public interface IRawFactory : IFactory
+    {
+        object CreateRaw();
+    }
 
     public interface IFactory<out TValue> : IFactory
     {
